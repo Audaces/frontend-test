@@ -15,7 +15,7 @@ No nosso exemplo, poderíamos mostrar: [2, 5, 20, 20]
 
 * Receber as entradas e mostrar uma combinação possível/que não é possível atingir o Target com a Sequence passada;
 * O aplicativo deverá ser responsivo;
-* As telas disponibilizadas nesse repo devem ser implementadas;
+* As telas devem seguir o mockup;
 * Um dark theme também deve ser implementado(seu mockup está no mesmo link)
  
 
