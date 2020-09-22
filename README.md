@@ -3,7 +3,7 @@
 Teste para a vaga de Frontend Developer na Audaces.
 
 ### Sobre o desafio:
-Você deverá desenvolver uma aplicação web, usando Angular.
+Você deverá desenvolver uma aplicação web, usando Angular e seguindo o mockup [disponível aqui](https://xd.adobe.com/view/75c72dcb-1caa-4d34-bd1a-e2753431ef89-2094/specs/).  
 A aplicação deverá solicitar que o usuário insira uma série de números, chamados de Sequence.
 Além disso, o usuário irá inserir um número alvo, chamado de Target.
 Por exemplo: [1, 2, 5, 20] e 47.  
@@ -16,7 +16,7 @@ No nosso exemplo, poderíamos mostrar: [2, 5, 20, 20]
 * Receber as entradas e mostrar uma combinação possível/que não é possível atingir o Target com a Sequence passada;
 * O aplicativo deverá ser responsivo;
 * As telas disponibilizadas nesse repo devem ser implementadas;
-* Um dark theme também deve ser implementado(seu mockup também está disponível aqui)
+* Um dark theme também deve ser implementado(seu mockup está no mesmo link)
  
 
 ### Extras: 
