@@ -1,0 +1,35 @@
+.num-class{
+    width: 145px;
+}
+.flex {
+	display: flex;
+    flex-wrap: wrap;
+}
+.item {
+	margin: 5px;
+    width: 140px;
+	text-align: center;
+	font-size: 14px;
+    p{
+        margin-top: 20px;
+    }
+}
+.title{
+    width:100px
+}
+.btn-primary{
+    background-color: #e63a8a;
+}
+.btn-plus{
+    background-color: #EAEAEA;
+    color: black;
+}
+mat-card{
+    margin-bottom: 20px;
+}
+.alert{
+    background-color: brown;
+    color: white;
+    text-align: center;
+}
+

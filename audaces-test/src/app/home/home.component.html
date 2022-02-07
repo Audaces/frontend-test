@@ -1,0 +1,23 @@
+<!--div class="basic-container">
+    <mat-grid-list cols="5" >
+      <mat-grid-tile>1</mat-grid-tile>
+      <mat-grid-tile [colspan] = "3">2</mat-grid-tile>
+      <mat-grid-tile>
+        <app-section-right></app-section-right>
+      </mat-grid-tile>
+    </mat-grid-list>
+  </div-->
+
+<!-- The flexible grid (content) -->
+<div class="row">
+  <div class="left">
+    <app-section-menu></app-section-menu>
+  </div>
+  <div class="main">
+    <app-principal></app-principal>
+    <app-footer></app-footer>
+  </div>
+  <div class="right">
+    <app-section-right></app-section-right>
+  </div>
+</div>

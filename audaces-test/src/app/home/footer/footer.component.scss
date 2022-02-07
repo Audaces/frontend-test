@@ -1,0 +1,57 @@
+.flex {
+	display: flex;
+    flex-wrap: wrap;
+}
+.flex-banner {
+    flex-flow: row wrap;
+}
+.item-img{
+    text-align: center;
+    margin: 5px;
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    color: #fff;
+    font-family: "Roboto";
+    .resp-image{
+        width: 100%;
+    }    
+    /*Favorite icon*/
+    .favorite{
+        height: 35px;
+        width: 35px;
+        background-color: #fff;
+        border-radius: 50%;
+        display: inline-block;
+    
+        position: absolute;
+        margin-right: 0.5%;
+
+        justify-self: right;
+        margin-top: 0.5%;
+        img{
+            margin-top: 7px;
+        }
+    }
+    P{
+        text-align: left;
+    }
+    .contact{
+        width: 350px;
+        display: flex;
+        justify-content: flex-start;
+        margin-top: 55px;
+        position: absolute;
+        font-size: 41px;
+        text-align: left;
+        margin-left: -50px;
+    }
+    .media{
+        position: absolute;
+        font-size: 41px;
+        width: 350px;
+        display: flex;
+        justify-content: flex-start;
+        margin-top: -30px;
+    }
+}
