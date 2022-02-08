@@ -50,7 +50,6 @@ export class PrincipalComponent implements OnInit {
     const lista = [test.number1, test.number2, test.number3, test.number4]
    
     let targetList = this.testService.validaTarget(lista, test.target);
-    console.log(targetList);
     if (targetList.length === 4){
       this.formTarget.controls['resp1'].setValue(targetList[0]);
       this.formTarget.controls['resp2'].setValue(targetList[1]);

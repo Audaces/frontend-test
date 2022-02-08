@@ -15,12 +15,10 @@ export class TestService {
     let compLista: string[] = [];
     let count = lista.length;
     
-    console.log('lista inicial');
     lista.forEach((element) => {
         while(validTarget + parseInt(element) <= target){
           validTarget += parseInt(element);
           orderTarget.push(parseInt(element));
-          console.log(orderTarget);
         }
     })
     if (orderTarget.length < 4 && lista.length > 1) {
