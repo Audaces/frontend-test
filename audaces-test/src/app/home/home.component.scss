@@ -1,20 +1,11 @@
 * {
   box-sizing: border-box;
 }
-
-/* Style the body */
-body {
-  font-family: Arial;
-  margin: 0;
-}
-/* Column container */
 .row {  
   display: flex;
   flex-wrap: wrap;
 }
 
-/* Create two unequal columns that sits next to each other */
-/* Sidebar/left column */
 .left {
   flex: 15%;
   background-color: #f1f1f1;
@@ -25,7 +16,6 @@ body {
   padding: 20px;
 }
 
-/* Main column */
 .main {
   flex: 60%;
   padding: 20px;
