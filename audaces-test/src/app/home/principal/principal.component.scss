@@ -1,0 +1,44 @@
+.num-class{
+    width: 130px;
+}
+.flex {
+	display: flex;
+    flex-wrap: wrap;
+}
+.flex-end{
+    display: flex;
+    justify-content: flex-end;
+  }
+.item {
+	margin: 5px;
+    width: 130px;
+	text-align: center;
+	font-size: 14px;
+    p{
+        margin-top: 20px;
+    }
+}
+.item-add{
+    width: 80px;
+    text-align: center;
+    font-size: 14px;
+}
+.title{
+    width:100px
+}
+.btn-primary{
+    background-color: #e63a8a;
+}
+.btn-plus{
+    background-color: #EAEAEA;
+    color: black;
+}
+mat-card{
+    margin-bottom: 20px;
+}
+.alert{
+    background-color: brown;
+    color: white;
+    text-align: center;
+}
+

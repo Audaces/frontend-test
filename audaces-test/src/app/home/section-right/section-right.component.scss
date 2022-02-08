@@ -1,0 +1,60 @@
+section{
+    margin: 5px;
+    flex: 1;
+    display: flex;
+    color: #fff;
+    font-family: "Roboto";
+    position: relative;
+    .align-top{
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        position: absolute;
+        .favorite{
+            height: 35px;
+            width: 35px;
+            background-color: #fff;
+            border-radius: 50%;
+            display: inline-block;
+    
+            margin-right: 14%;
+            justify-self: right;
+            margin-top: 3%;
+            img {
+                margin-top: 6.5px;
+                margin-left: 5.5px;
+
+            }
+        }
+    }
+    .el-text{
+        width: 100%;
+        position: absolute;
+        text-align: center;
+        align-self: center;
+        font-family: "Roboto";
+        .content{
+            font-size: 27px;
+        }
+        .title{
+            font-size: 43px;
+        }
+    }
+    .img-pos{
+        text-align: center;
+        align-self: center;
+        width: 100%;
+    }
+}
+
+@media (max-width:600px){
+    .favorite{
+        margin-right: 20% !important;
+    }
+}
+@media (max-width:900px){
+    .favorite{
+        margin-right: 36% !important;
+        margin-top: 1.5% !important;
+    }
+}

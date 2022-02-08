@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.left {
+  flex: 15%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+.right {
+  flex: 20%;
+  padding: 20px;
+}
+
+.main {
+  flex: 60%;
+  padding: 20px;
+}
+
+.resp-img {
+  width: 100%;
+  padding: 20px;
+}

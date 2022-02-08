@@ -1,0 +1,95 @@
+<mat-card>
+    <h3>Teste Audaces</h3>
+    <form [formGroup]="formTest" class="test-form" (ngSubmit)="processarTeste()">
+        <section class="container flex">
+            <div class="title"><p>Sequência:</p></div>
+            <div class="item">
+                <div class="form-group">
+                    <mat-form-field class="num-class" appearance="fill">
+                        <mat-label>Primeiro número</mat-label>
+                        <input matInput placeholder="0" class="form-control" type="number" name="number1" id="number1" formControlName="number1">
+                    </mat-form-field>
+                </div>
+            </div>
+            <div class="item">
+                <div class="form-group">
+                    <mat-form-field class="num-class" appearance="fill">
+                        <mat-label>Segundo número</mat-label>
+                        <input matInput placeholder="0" class="form-control" type="number" name="number2" id="number2" formControlName="number2">
+                    </mat-form-field>
+                </div>
+            </div>
+            <div class="item">
+                <div class="form-group">
+                    <mat-form-field class="num-class" appearance="fill">
+                        <mat-label>Terceiro número</mat-label>
+                        <input matInput placeholder="0" class="form-control" type="number" name="number3" id="number3" formControlName="number3">
+                    </mat-form-field>
+                </div>
+            </div>
+            <div class="item">
+                <div class="form-group">
+                    <mat-form-field class="num-class" appearance="fill">
+                        <mat-label>Quarto número</mat-label>
+                        <input matInput placeholder="0" class="form-control" type="number" name="number4" id="number4" formControlName="number4">
+                    </mat-form-field>
+                </div>
+            </div>
+            <div class="item-add">
+                <button mat-fab color="primary" class="btn-plus" aria-label="Botão adicionar">+</button>
+            </div>
+        </section>
+    
+        <section class="container flex">
+            <div class="title"><p>Target:</p></div>
+            <div class="item">
+                <div class="form-group">
+                    <mat-form-field class="num-class" appearance="fill">
+                        <input matInput placeholder="0" class="form-control" type="number" name="target" id="target" formControlName="target">
+                    </mat-form-field>
+                </div>
+            </div>
+        </section>
+
+        <section class="container flex-end">
+            <div class="item">
+                <button mat-flat-button (click)="limpar()">Limpar campos</button>
+            </div>
+            <div class="item form-group submit-button">
+                <button mat-flat-button type="submit" color="primary" class="btn-primary">Combinar</button>
+            </div>
+        </section>
+    </form>
+</mat-card>
+
+<mat-card>
+    <h3>Combinações possíveis</h3>
+    <form [formGroup]="formTarget" class="test-form">
+        <section class="container flex">
+            <div class="title"></div>
+            <div class="item">
+                <mat-form-field class="num-class" appearance="fill">
+                    <input matInput placeholder="0" type="number" name="resp1" id="resp1" formControlName="resp1">
+                </mat-form-field>
+            </div>
+            <div class="item">
+                <mat-form-field class="num-class" appearance="fill">
+                    <input matInput placeholder="0" type="number" name="resp2" id="resp2" formControlName="resp2">
+                </mat-form-field>
+            </div>
+            <div class="item">
+                <mat-form-field class="num-class" appearance="fill">
+                    <input matInput placeholder="0" type="number" name="resp3" id="resp3" formControlName="resp3">
+                </mat-form-field>
+            </div>
+            <div class="item">
+                <mat-form-field class="num-class" appearance="fill">
+                    <input matInput placeholder="0" type="number" name="resp4" id="resp4" formControlName="resp4">
+                </mat-form-field>
+            </div>
+        </section>
+    </form>
+    <mat-card *ngIf="error" class="alert">Não foi possível realizar uma combinação!</mat-card>
+</mat-card>
+
+

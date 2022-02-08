@@ -1,0 +1,28 @@
+mat-icon {
+    position: absolute;
+    margin-top: -3px;
+}
+a{
+    margin-top: -30px;
+    margin-left: 2.5rem !important;
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-size: 14px;
+    color: black;
+}
+mat-list-option:hover, .mat-list-single-selected-option{
+    background:#ffb7d91f;
+    color: #e63a8a !important;
+    a{
+        color: #e63a8a !important;
+    }
+}
+section{
+    height: 100%;
+}
+.footer-menu{
+    position: absolute;
+    bottom: 0;
+    /*height: 100%;
+    border-collapse: collapse;*/
+}
